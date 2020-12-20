@@ -53,8 +53,14 @@ xlabel('t'); ylabel('x'); zlabel('y');
 grid on
 
 
+val1 = F1Xdata-LXdata;
+val2 = F1Ydata-LYdata;
 
-
+figure(2)
+subplot(2,2,1);plot3(tdata, F1Xdata-LXdata, F1Ydata-LYdata); grid on
+subplot(2,2,2);plot3(tdata, F1Xdata-LXdata, F1Ydata-LYdata); grid on
+subplot(2,2,3);plot3(tdata, F1Xdata-LXdata, F1Ydata-LYdata); grid on
+subplot(2,2,4);plot3(tdata, F1Xdata-LXdata, F1Ydata-LYdata); grid on
 
 % % »æÖÆ X-Y ×Ù¼£Í¼
 % figure(2)
